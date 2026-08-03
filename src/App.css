@@ -2,6 +2,9 @@
 @import 'tailwindcss';
 
 @theme {
+  /* BREAKPOINTS */
+  --breakpoint-2xl: 1440px;
+
   /* FONTS */
   --font-sans: 'Figtree', 'system-ui', sans-serif;
 

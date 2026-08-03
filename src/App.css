@@ -1,7 +1,7 @@
 @import 'tailwindcss';
 
 @theme {
-  /* CUSTOM COLOURS /*
+  /* CUSTOM COLOURS */
   /* Amethyst */
   --color-amethyst-50: oklch(94.32% 0.0128 325.68);
   --color-amethyst-100: oklch(90.23% 0.0221 325.76);
@@ -66,4 +66,30 @@
   --color-tan-800: oklch(37.94% 0.0556 68.47);
   --color-tan-900: oklch(28.71% 0.0384 67.14);
   --color-tan-950: oklch(21.81% 0.0267 71.26);
+
+  /* CUSTOM THEMES */
+  --color-surface-default-subtle: var(--color-butter-50);
+  --color-surface-default-base: var(--color-butter-500);
+  --color-surface-default-strong: var(--color-brick-500);
+
+  --color-surface-brand-tan-subtle: var(--color-tan-50);
+  --color-surface-brand-tan-base: var(--color-tan-500);
+  --color-surface-brand-brick-subtle: var(--color-brick-50);
+  --color-surface-brand-brick-base: var(--color-brick-500);
+  --color-surface-brand-butter-subtle: var(--color-butter-50);
+  --color-surface-brand-butter-base: var(--color-butter-500);
+  --color-surface-brand-amethyst-subtle: var(--color-amethyst-50);
+  --color-surface-brand-amethyst-base: var(--color-amethyst-500);
+  --color-surface-brand-merlot-subtle: var(--color-merlot-50);
+  --color-surface-brand-merlot-base: var(--color-merlot-500);
+
+  --color-content-primary: var(--color-stone-900);
+  --color-content-secondary: var(--color-stone-600);
+  --color-content-tertiary: var(--color-stone-500);
+  --color-content-brand-primary: var(--color-merlot-500);
+  --color-content-brand-secondary: var(--color-brick-500);
+  --color-content-brand-tertiary: var(--color-butter-50);
+
+  --color-border-primary: var(--color-merlot-500);
+  --color-border-secondary: var(--color-brick-500);
 }

@@ -1,9 +1,10 @@
-@import 'tailwindcss';
 @import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300..900&display=swap');
+@import 'tailwindcss';
 
 @theme {
   /* FONTS */
   --font-sans: 'Figtree', 'system-ui', sans-serif;
+
   /* CUSTOM COLOURS */
   /* Amethyst */
   --color-amethyst-50: oklch(94.32% 0.0128 325.68);

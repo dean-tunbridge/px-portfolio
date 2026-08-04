@@ -10,9 +10,6 @@ function App() {
   return (
     <>
       <div className="font-sans p-8 space-y-4">
-        <h1 className="p-24 border rounded-md border-merlot-500 text-white bg-brick-500 ">
-          Test
-        </h1>
         <Home />
         <CaseStudies />
         <Experience />

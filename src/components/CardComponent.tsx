@@ -38,7 +38,6 @@ const sizeOption: Record<Size, string> = {
 }
 
 // COMPONENT //
-
 export default function CardComponent({
   size = 'base',
   colour = 'butterStrong',

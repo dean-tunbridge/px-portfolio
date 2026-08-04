@@ -5,7 +5,7 @@ export default function Navbar() {
         <ul className="space-6 text-base flex flex-row">
           <li>
             <a
-              className=" font-normal text-content-secondary px-2 py-1 rounded-md hover:bg-surface-default-subtle active:text-content-brand-secondary"
+              className="font-normal text-content-secondary px-2 py-1 rounded-md hover:bg-surface-default-subtle active:text-content-brand-secondary"
               href="#">
               Home
             </a>

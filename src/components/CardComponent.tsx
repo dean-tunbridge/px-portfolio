@@ -11,7 +11,7 @@ type Colour =
   | 'tan'
   | 'brick'
 
-interface CardProps extends HTMLAttributes<HTMLDivElement> {
+type CardProps = HTMLAttributes<HTMLDivElement> & {
   size?: Size
   colour?: Colour
 }

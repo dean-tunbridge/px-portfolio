@@ -1,5 +1,3 @@
-const CardComponent = () => {
+export default function CardComponent() {
   return <div>CardComponent</div>
 }
-
-export default CardComponent

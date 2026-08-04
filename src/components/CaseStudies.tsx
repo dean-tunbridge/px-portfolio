@@ -1,5 +1,3 @@
-const CaseStudies = () => {
+export default function CaseStudies() {
   return <div>CaseStudies</div>
 }
-
-export default CaseStudies

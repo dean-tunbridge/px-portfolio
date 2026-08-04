@@ -1,5 +1,3 @@
-const Experience = () => {
+export default function Experience() {
   return <div>Experience</div>
 }
-
-export default Experience

@@ -1,7 +1,6 @@
 import type { HTMLAttributes } from 'react'
 
 // TYPES //
-
 type Size = 'small' | 'base' | 'large'
 
 type Colour =
@@ -18,7 +17,6 @@ interface CardProps extends HTMLAttributes<HTMLDivElement> {
 }
 
 // COLOUR AND SIZE OPTIONS //
-
 const colourOption: Record<Colour, string> = {
   butterSubtle:
     'bg-surface-brand-butter-subtle border rounded-md border-border-primary shadow-sm shadow-primary',
@@ -44,16 +42,10 @@ const sizeOption: Record<Size, string> = {
 export default function CardComponent({
   size = 'base',
   colour = 'butterStrong',
-  className = '',
   children,
-  ...rest
 }: CardProps) {
   const sizeClass = sizeOption[size] ?? sizeOption.base
   const colourClass = colourOption[colour] ?? colourOption.butterStrong
 
-  return (
-    <div className={`${sizeClass} ${colourClass} ${className}`} {...rest}>
-      {children}
-    </div>
-  )
+  return <div className={`${sizeClass} ${colourClass} `}>{children}</div>
 }

@@ -8,6 +8,16 @@
   /* FONTS */
   --font-sans: 'Figtree', 'system-ui', sans-serif;
 
+  /* FONT SIZE */
+  --text-xs: 12.8px;
+  --text-sm: 16px;
+  --text-base: 20px;
+  --text-lg: 25px;
+  --text-xl: 31.3px;
+  --text-2xl: 39.1px;
+  --text-3xl: 48.8px;
+  --text-4xl: 61px;
+
   /* SHADOWS */
   --shadow-sm: box-shadow: 2px 2px 0 0 rgb(244 201 93 / 1);
   --shadow-base: box-shadow: 4px 4px 0 0 rgb(145 23 31 / 1);

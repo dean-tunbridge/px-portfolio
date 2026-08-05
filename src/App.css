@@ -19,8 +19,8 @@
   --text-4xl: 61px;
 
   /* SHADOWS */
-  --shadow-sm: box-shadow: 2px 2px 0 0 rgb(244 201 93 / 1);
-  --shadow-base: box-shadow: 4px 4px 0 0 rgb(145 23 31 / 1);
+  --shadow-sm: 2px 2px 0 0 rgb(244 201 93 / 1);
+  --shadow-base: 4px 4px 0 0 rgb(145 23 31 / 1);
 
   /* CUSTOM COLOURS */
   /* Amethyst */

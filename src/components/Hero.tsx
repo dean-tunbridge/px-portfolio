@@ -1,3 +1,5 @@
+import CardComponent from './CardComponent'
+
 export default function Hero() {
   return (
     <div
@@ -6,14 +8,31 @@ export default function Hero() {
                  w-full h-136
                  bg-amethyst-300
                  border-b-96 border-brick-500">
-      <div
-        className="box-border flex flex-row justify-center items-center
-                   p-12
-                   w-full max-w-360 min-w-85.5 h-100
-                   bg-surface-default-subtle
-                   border border-border-primary
-                   shadow-sm
-                   rounded-md"></div>
+      <CardComponent size="base" colour="butterSubtle">
+        <div className="flex flex-col items-start gap-6 w-full">
+          <div className="flex flex-col items-start w-full gap-2">
+            <h1 className="font-sans font-black text-4xl leading-[1.6] w-full">
+              <span className="text-content-brand-primary">
+                Hello, I&apos;m{' '}
+              </span>
+              <span className="text-content-brand-secondary">Priscilla</span>
+            </h1>
+
+            <p className="font-sans font-black text-4xl leading-[1.6] w-full">
+              <span className="text-content-brand-primary">
+                a Product Owner turned{' '}
+              </span>
+              <span className="text-content-brand-secondary [text-shadow:2px_2px_0_0_var(--color-butter-500)]">
+                UX Designer
+              </span>
+            </p>
+          </div>
+
+          <p className="font-sans font-normal text-xl leading-[1.6] w-full">
+            Your subheading / bio text goes here
+          </p>
+        </div>
+      </CardComponent>
     </div>
   )
 }

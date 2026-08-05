@@ -7,7 +7,7 @@ export default function Hero() {
                  pt-24 px-0 pb-12
                  w-full h-136
                  bg-amethyst-300
-                 border-b-96 border-brick-500">
+                border-b-96 border-brick-500">
       <CardComponent size="base" colour="butterSubtle">
         <div className="flex flex-col items-start gap-6 w-full">
           <div className="flex flex-col items-start w-full gap-2">
@@ -29,7 +29,9 @@ export default function Hero() {
           </div>
 
           <p className="font-sans font-normal text-xl leading-[1.6] w-full">
-            Your subheading / bio text goes here
+            I am a bonson changing careers in a turbulent IT industry filled
+            with techbrodudes and CEO dingleberries that are an absolute waste
+            of space in humanity.
           </p>
         </div>
       </CardComponent>

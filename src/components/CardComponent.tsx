@@ -1,5 +1,3 @@
-import type { HTMLAttributes } from 'react'
-
 // TYPES //
 type Size = 'small' | 'base' | 'large'
 
@@ -11,7 +9,7 @@ type Colour =
   | 'tan'
   | 'brick'
 
-type CardProps = HTMLAttributes<HTMLDivElement> & {
+type CardProps = React.ComponentProps<'div'> & {
   size?: Size
   colour?: Colour
 }

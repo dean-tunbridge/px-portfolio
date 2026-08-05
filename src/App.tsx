@@ -5,14 +5,12 @@ import Navbar from './components/Navbar'
 function App() {
   return (
     <>
-      <div className="font-sans">
-        <header>
-          <Navbar />
-        </header>
-        <main>
-          <Hero />
-        </main>
-      </div>
+      <header>
+        <Navbar />
+      </header>
+      <main>
+        <Hero />
+      </main>
     </>
   )
 }

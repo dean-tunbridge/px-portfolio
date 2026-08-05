@@ -17,16 +17,3 @@ export default function Hero() {
     </div>
   )
 }
-
-// function AnimatedArrow() {
-//   return (
-//     <div className="w-8 h-7 relative">
-//       <div
-//         className="absolute w-8 h-5 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2
-//                    bg-content-brand-secondary border border-border-primary
-//                    shadow-sm
-//                    rounded-sm rotate-180"
-//       />
-//     </div>
-//   )
-// }

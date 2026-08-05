@@ -26,7 +26,7 @@ const colourOption: Record<Colour, string> = {
     'bg-surface-brand-amethyst-base border rounded-md border-border-primary shadow-sm shadow-primary',
   tan: 'bg-surface-brand-tan-base border rounded-md border-border-primary shadow-sm shadow-primary',
   brick:
-    'bg-surface-brand-brick-base border rounded-mdr border-border-primary shadow-sm shadow-primary',
+    'bg-surface-brand-brick-base border rounded-md border-border-primary shadow-sm shadow-primary',
 }
 
 const sizeOption: Record<Size, string> = {

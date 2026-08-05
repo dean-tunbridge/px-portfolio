@@ -33,8 +33,6 @@ export default function Navbar() {
               </a>
             </li>
           ))}
-
-          {/* text-content-brand-secondary */}
         </ul>
       </nav>
     </div>

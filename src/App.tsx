@@ -6,8 +6,12 @@ function App() {
   return (
     <>
       <div className="font-sans">
-        <Navbar />
-        <Hero />
+        <header>
+          <Navbar />
+        </header>
+        <main className="pt-14">
+          <Hero />
+        </main>
       </div>
     </>
   )

@@ -4,7 +4,6 @@
 @theme {
   /* MAX WIDTH */
   --width-max-content: 1440px;
-  :1440px;
 
   /* BREAKPOINTS */
   --breakpoint-2xl: 1440px;

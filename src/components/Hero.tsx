@@ -5,7 +5,7 @@ export default function Hero() {
     <div
       className="box-border flex flex-col justify-center items-center
                  pt-24 px-0 pb-12
-                 w-full h-136
+                 w-full max-w-12 h-136
                  bg-amethyst-300
                 border-b-96 border-brick-500">
       <CardComponent size="base" colour="butterSubtle">

@@ -14,14 +14,14 @@ export default function Hero() {
         className="w-full max-w-(--width-max-content)">
         <div className="flex flex-col items-start gap-6">
           <div className="flex flex-col items-start gap-2">
-            <h1 className="font-sans font-black text-4xl ">
+            <h1 className=" font-black text-4xl ">
               <span className="text-content-brand-primary">
                 Hello, I&apos;m Priscilla
               </span>
               {/* <span className="text-content-brand-secondary">Priscilla</span> */}
             </h1>
 
-            <p className="font-sans font-black text-4xl ">
+            <p className=" font-black text-4xl ">
               <span className="text-content-brand-secondary">
                 a Product Owner turned{' '}
               </span>
@@ -31,7 +31,7 @@ export default function Hero() {
             </p>
           </div>
 
-          <p className="font-sans font-normal text-xl">
+          <p className=" font-normal text-xl">
             I am a bonson changing careers in a turbulent IT industry filled
             with techbrodudes and CEO dingleberries that are an absolute waste
             of space in humanity.

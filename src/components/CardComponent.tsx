@@ -17,16 +17,16 @@ type CardProps = React.ComponentProps<'div'> & {
 // COLOUR AND SIZE OPTIONS //
 const colourOption: Record<Colour, string> = {
   butterSubtle:
-    'bg-surface-brand-butter-subtle border rounded-md border-border-primary shadow-sm shadow-primary',
+    'bg-surface-brand-butter-subtle border rounded-md border-border-primary shadow-sm ',
   butterStrong:
-    'bg-surface-brand-butter-base border rounded-md border-border-primary shadow-sm shadow-primary',
+    'bg-surface-brand-butter-base border rounded-md border-border-primary shadow-sm ',
   amethystSubtle:
-    'bg-surface-brand-amethyst-subtle border rounded-md border-border-primary shadow-sm shadow-primary',
+    'bg-surface-brand-amethyst-subtle border rounded-md border-border-primary shadow-sm ',
   amethystStrong:
-    'bg-surface-brand-amethyst-base border rounded-md border-border-primary shadow-sm shadow-primary',
-  tan: 'bg-surface-brand-tan-base border rounded-md border-border-primary shadow-sm shadow-primary',
+    'bg-surface-brand-amethyst-base border rounded-md border-border-primary shadow-sm ',
+  tan: 'bg-surface-brand-tan-base border rounded-md border-border-primary shadow-sm ',
   brick:
-    'bg-surface-brand-brick-base border rounded-md border-border-primary shadow-sm shadow-primary',
+    'bg-surface-brand-brick-base border rounded-md border-border-primary shadow-sm ',
 }
 
 const sizeOption: Record<Size, string> = {

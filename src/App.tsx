@@ -9,7 +9,7 @@ function App() {
         <header>
           <Navbar />
         </header>
-        <main className="pt-14">
+        <main>
           <Hero />
         </main>
       </div>

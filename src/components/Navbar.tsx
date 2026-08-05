@@ -1,8 +1,12 @@
+import { useState } from 'react'
+
 export default function Navbar() {
   type NavItem = {
     label: string
     href: string
   }
+
+  const [active, setActive] = useState('')
 
   const navItems: NavItem[] = [
     { label: 'Home', href: '#' },

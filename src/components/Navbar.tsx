@@ -6,7 +6,7 @@ export default function Navbar() {
     href: string
   }
 
-  const [active, setActive] = useState('')
+  const [active, setActive] = useState('Home')
 
   const navItems: NavItem[] = [
     { label: 'Home', href: '#' },
@@ -24,8 +24,11 @@ export default function Navbar() {
           {navItems.map((el) => (
             <li key={el.href}>
               <a
+                onClick={() => {
+                  setActive(el.label)
+                }}
                 href={el.href}
-                className="font-normal text-content-secondary px-2 py-1 rounded-md hover:bg-surface-default-subtle active:text-content-brand-secondary">
+                className={`font-normal  px-2 py-1 rounded-md hover:bg-surface-default-subtle ${active === el.label ? 'text-content-brand-secondary' : 'text-content-secondary'}`}>
                 {el.label}
               </a>
             </li>

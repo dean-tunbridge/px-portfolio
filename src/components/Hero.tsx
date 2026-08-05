@@ -30,7 +30,6 @@ export default function Hero() {
               </span>
             </p>
           </div>
-
           <p className=" font-normal text-xl">
             I am a bonson changing careers in a turbulent IT industry filled
             with techbrodudes and CEO dingleberries that are an absolute waste

@@ -9,7 +9,7 @@ export default function Hero() {
                  bg-amethyst-300
                 border-b-96 border-brick-500">
       <CardComponent
-        size="base"
+        size="large"
         colour="butterSubtle"
         className="w-full max-w-(--width-max-content)">
         <div className="flex flex-col items-start gap-6">

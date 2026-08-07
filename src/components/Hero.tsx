@@ -28,14 +28,14 @@ export default function Hero() {
               </span>
               <span className="text-content-brand-secondary text-shadow-sm text-shadow-butter-500">
                 UX Designer
-                <img
-                  src={triangleLogo}
-                  alt=""
-                  width={24}
-                  height={16}
-                  className="inline-block ml-2 align-middle"
-                />
               </span>
+              <img
+                src={triangleLogo}
+                alt=""
+                width={24}
+                height={16}
+                className="inline-block ml-3 align-middle"
+              />
             </p>
           </div>
           <p className=" font-normal text-xl">

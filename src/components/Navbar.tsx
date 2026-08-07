@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import {NavItem}
+import { NavLink } from './NavLink'
 
 export default function Navbar() {
   type NavItem = {

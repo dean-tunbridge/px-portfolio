@@ -1,4 +1,5 @@
 import CardComponent from './CardComponent'
+import triangleLogo from '../assets/triangle.svg'
 
 export default function Hero() {
   return (
@@ -21,12 +22,19 @@ export default function Hero() {
               {/* <span className="text-content-brand-secondary">Priscilla</span> */}
             </h1>
 
-            <p className=" font-black text-4xl ">
+            <p className="font-black text-4xl">
               <span className="text-content-brand-secondary">
                 a Product Owner turned{' '}
               </span>
               <span className="text-content-brand-secondary text-shadow-sm text-shadow-butter-500">
                 UX Designer
+                <img
+                  src={triangleLogo}
+                  alt=""
+                  width={24}
+                  height={16}
+                  className="inline-block ml-2 align-middle"
+                />
               </span>
             </p>
           </div>

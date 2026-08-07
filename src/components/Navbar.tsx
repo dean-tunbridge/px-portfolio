@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { NavLink } from './NavLink'
+import NavLink from './NavLink'
 
 export default function Navbar() {
   type NavItem = {
@@ -22,16 +22,13 @@ export default function Navbar() {
       <nav className="p-2 bg-surface-default-subtle border-b border-border-primary ">
         <ul className="text-base flex flex-row justify-center gap-6">
           {navItems.map((el) => (
-            <li key={el.href}>
-              <a
-                onClick={() => {
-                  setActive(el.label)
-                }}
-                href={el.href}
-                className={`font-normal  px-2 py-1 rounded-md hover:bg-surface-default-subtle ${active === el.label ? 'text-content-brand-secondary' : 'text-content-secondary'}`}>
-                {el.label}
-              </a>
-            </li>
+            <NavLink
+              key={el.href}
+              label={el.label}
+              href={el.href}
+              isActive={active === el.label}
+              onClick={() => setActive(el.label)}
+            />
           ))}
         </ul>
       </nav>

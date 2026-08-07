@@ -16,7 +16,7 @@ export default function NavLink({
       <a
         onClick={onClick}
         href={href}
-        className={`font-normal px-2 py-1 rounded-md hover:bg-surface-default-subtle  ${isActive ? 'text-content-brand-secondary' : 'text-content-secondary'}`}>
+        className={`font-normal px-2 py-1 rounded-md hover:bg-surface-default-base  ${isActive ? 'text-content-brand-secondary' : 'text-content-secondary'}`}>
         {label}
       </a>
     </li>

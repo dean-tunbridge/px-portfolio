@@ -31,7 +31,7 @@ export default function Hero() {
               </span>
               <img
                 src={triangleLogo}
-                alt=""
+                alt="triangle"
                 width={24}
                 height={16}
                 className="inline-block ml-3 align-middle"

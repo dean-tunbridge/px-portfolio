@@ -32,14 +32,12 @@ export default function CaseStudies() {
         />
       </div>
 
-      <div className="flex flex-row flex-wrap items-center content-center gap-6 w-full max-w-7xl pr-6">
-        <CaseStudyCard
-          imageUrl=""
-          projectTitle="Project"
-          company="Company"
-          description="Description"
-        />
-      </div>
+      <CaseStudyCard
+        imageUrl=""
+        projectTitle="Project"
+        company="Company"
+        description="Description"
+      />
     </div>
   )
 }

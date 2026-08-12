@@ -27,26 +27,28 @@ export default function CaseStudyCard({
       <CardComponent
         size="small"
         colour={colour}
-        className="w-full max-w-154 min-w-85.5 z-1 flex flex-row justify-center items-center">
-        <div className="flex flex-col items-start w-full">
+        className="box-border w-full max-w-154 min-w-85.5 h-[379.62px] z-1 flex flex-row justify-center items-center p-6">
+        <div className="flex flex-col items-start w-full h-full">
           <BrowserBar />
           <img
             src={imageUrl}
             alt={`${company} screenshot`}
-            className="box-border w-full max-w-154 min-w-85.5 h-[379.62px] z-1 flex flex-row justify-center items-center p-6"
+            className="box-border w-full h-[299.62px] object-cover border border-border-primary rounded-b-md"
           />
         </div>
       </CardComponent>
-      {/* case-study-text */}
-      <div className="flex flex-col items-start gap-3 w-full">
+
+      <div className="flex flex-col items-start gap-3 w-full flex-1">
         <div className="flex flex-col items-start gap-1 w-full">
           <p className="w-full font-black text-xl leading-[1.6] text-content-brand-primary">
             {projectTitle}
           </p>
+
           <p className="w-full font-black text-xl leading-[1.6] text-content-brand-secondary">
             {company}
           </p>
         </div>
+
         <p className="w-full font-normal text-xl leading-[1.6] text-content-primary">
           {description}
         </p>

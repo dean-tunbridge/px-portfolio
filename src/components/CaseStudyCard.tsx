@@ -1,7 +1,7 @@
 import BrowserBar from './BrowserBar'
 import CardComponent from './CardComponent'
 
-type CaseStudyCardProps = {
+export type CaseStudyCardProps = {
   colour?:
     | 'butterSubtle'
     | 'butterStrong'

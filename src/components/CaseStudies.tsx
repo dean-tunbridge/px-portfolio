@@ -1,5 +1,15 @@
 import triangleLogo from '../assets/triangle.svg'
-import CaseStudyCard from './CaseStudyCard'
+import CaseStudyCard, { type CaseStudyCardProps } from './CaseStudyCard'
+
+const CASE_STUDY_TEST: CaseStudyCardProps = [
+  {
+    colour: '',
+    imageUrl = '',
+    projectTitle = 'Project',
+    company = 'Company',
+    description = 'Cupcake ipsum dolor sit amet. Ice cream I love chupa chups candy gingerbread halvah I love jelly.',
+  },
+]
 
 export default function CaseStudies() {
   return (
@@ -34,6 +44,7 @@ export default function CaseStudies() {
         </div>
 
         <CaseStudyCard
+          colour="amethystStrong"
           imageUrl=""
           projectTitle="Project"
           company="Company"

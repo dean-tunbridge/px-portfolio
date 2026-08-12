@@ -39,10 +39,16 @@ const sizeOption: Record<Size, string> = {
 export default function CardComponent({
   size = 'base',
   colour = 'butterStrong',
+  className,
   children,
+  ...rest
 }: CardProps) {
   const sizeClass = sizeOption[size] ?? sizeOption.base
   const colourClass = colourOption[colour] ?? colourOption.butterStrong
 
-  return <div className={`${sizeClass} ${colourClass} `}>{children}</div>
+  return (
+    <div className={`${sizeClass} ${colourClass} ${className ?? ''}`} {...rest}>
+      {children}
+    </div>
+  )
 }

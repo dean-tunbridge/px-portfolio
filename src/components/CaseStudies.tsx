@@ -1,3 +1,5 @@
+import triangleLogo from '../assets/triangle.svg'
+
 export default function CaseStudies() {
   return (
     <div
@@ -11,9 +13,16 @@ export default function CaseStudies() {
                 border-border-primary
                 border">
       <div className="flex flex-row justify-center items-center p-0 gap-2 w-68.75 h-15.5 flex-none order-0 grow-0">
-        <h1 className="font-black text-2xl leading-[1.6] text-center text-content-brand-primary flex-none order-0 grow-0">
+        <h2 className="font-black text-2xl leading-[1.6] text-center text-content-brand-primary flex-none order-0 grow-0">
           Case Studies
-        </h1>
+        </h2>{' '}
+        <img
+          src={triangleLogo}
+          alt="triangle"
+          width={24}
+          height={16}
+          className="inline-block align-middle"
+        />
       </div>
     </div>
   )

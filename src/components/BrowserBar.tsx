@@ -3,10 +3,15 @@ import ArrowRight from '../assets/right-arrow.svg'
 import ArrowClockwise from '../assets/clockwise.svg'
 import CloseTab from '../assets/x.svg'
 
-function NavIcon({ icon, sizeClass }: { icon: string; sizeClass: string }) {
+type NavIconProps = {
+  icon: string
+  size: string
+}
+
+function NavIcon({ icon, size }: NavIconProps) {
   return (
     <div
-      className={`flex items-center justify-center text-content-brand-primary flex-none grow-0 ${sizeClass}`}>
+      className={`flex items-center justify-center text-content-brand-primary flex-none grow-0 ${size}`}>
       <img src={icon} alt={icon} />
     </div>
   )
@@ -24,20 +29,21 @@ export default function BrowserBar() {
                    flex-none order-0 self-stretch grow-0"
       />
 
-      {/* SEARCH */}
+      {/* SEARCH BAR */}
       <div className="flex flex-row items-center px-3 py-2 gap-6 w-full h-8 flex-none order-1 self-stretch grow-0">
         <div className="flex flex-row items-center gap-2 w-11.25 h-2 flex-none order-0 grow-0">
-          <NavIcon icon={ArrowLeft} sizeClass="w-2.5 h-2" />
-          <NavIcon icon={ArrowRight} sizeClass="w-2.5 h-2" />
-          <NavIcon icon={ArrowClockwise} sizeClass="w-[9px] h-2" />
+          {/* BUTTON GROUP */}
+          <NavIcon icon={ArrowLeft} size="w-2.5 h-2" />
+          <NavIcon icon={ArrowRight} size="w-2.5 h-2" />
+          <NavIcon icon={ArrowClockwise} size="w-2.25 h-2" />
         </div>
 
-        {/* URL */}
+        {/* FRAME */}
         <div className="flex flex-col justify-center items-center p-0 h-4 bg-butter-200 flex-none order-1 grow" />
 
         {/* CLOSE TAB */}
         <div className="flex flex-row items-center gap-2 w-2 h-2 flex-none order-2 grow-0">
-          <NavIcon icon={CloseTab} sizeClass="w-2 h-2" />
+          <NavIcon icon={CloseTab} size="w-2 h-2" />
         </div>
       </div>
     </div>

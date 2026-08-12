@@ -4,7 +4,7 @@ import CaseStudyCard, { type CaseStudyCardProps } from './CaseStudyCard'
 const CASE_STUDY_TEST: CaseStudyCardProps[] = [
   {
     colour: 'tan',
-    imageUrl: '',
+    imageUrl: 'https://placecats.com/580/338',
     projectTitle: 'Project',
     company: 'Company',
     description:
@@ -12,7 +12,7 @@ const CASE_STUDY_TEST: CaseStudyCardProps[] = [
   },
   {
     colour: 'butterStrong',
-    imageUrl: '',
+    imageUrl: 'https://placecats.com/580/338',
     projectTitle: 'Project',
     company: 'Company',
     description:
@@ -20,7 +20,7 @@ const CASE_STUDY_TEST: CaseStudyCardProps[] = [
   },
   {
     colour: 'brick',
-    imageUrl: '',
+    imageUrl: 'https://placecats.com/580/338',
     projectTitle: 'Project',
     company: 'Company',
     description:
@@ -28,7 +28,7 @@ const CASE_STUDY_TEST: CaseStudyCardProps[] = [
   },
   {
     colour: 'amethystStrong',
-    imageUrl: '',
+    imageUrl: 'https://placecats.com/580/338',
     projectTitle: 'Project',
     company: 'Company',
     description:

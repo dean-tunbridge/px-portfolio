@@ -18,7 +18,7 @@ export default function Navbar() {
     { label: 'Contact', href: '#contact' },
   ]
   return (
-    <div className="fixed top-0 right-0 left-0">
+    <div className="fixed top-0 right-0 left-0 z-1000">
       <nav className="p-2 bg-surface-default-subtle border-b border-border-primary ">
         <ul className="text-base flex flex-row justify-center gap-6">
           {navItems.map((el) => (

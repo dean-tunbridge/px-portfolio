@@ -18,26 +18,28 @@ export default function CaseStudies() {
         pt-46
         pb-12
       ">
-      <div className="flex flex-row justify-center items-center gap-2">
-        <h2 className="font-black text-2xl leading-[1.6] text-center text-content-brand-primary">
-          Case Studies
-        </h2>
+      <div className="bg-surface-default-subtle">
+        <div className="flex flex-row justify-center items-center gap-2 ">
+          <h2 className="font-black text-2xl leading-[1.6] text-center text-content-brand-primary">
+            Case Studies
+          </h2>
 
-        <img
-          src={triangleLogo}
-          alt="triangle logo"
-          width={24}
-          height={16}
-          className="inline-block"
+          <img
+            src={triangleLogo}
+            alt="triangle logo"
+            width={24}
+            height={16}
+            className="inline-block"
+          />
+        </div>
+
+        <CaseStudyCard
+          imageUrl=""
+          projectTitle="Project"
+          company="Company"
+          description="Cupcake ipsum dolor sit amet. Ice cream I love chupa chups candy gingerbread halvah I love jelly."
         />
       </div>
-
-      <CaseStudyCard
-        imageUrl=""
-        projectTitle="Project"
-        company="Company"
-        description="Description"
-      />
     </div>
   )
 }

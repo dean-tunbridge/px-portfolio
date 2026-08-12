@@ -27,7 +27,7 @@ export default function CaseStudyCard({
       <CardComponent
         size="small"
         colour={colour}
-        className="box-border w-full max-w-154 min-w-85.5 h-[379.62px] z-1 flex flex-row justify-center items-center p-6">
+        className="box-border w-full max-w-154 min-w-85.5 h-[379.62px] flex flex-row justify-center items-center p-6">
         <div className="flex flex-col items-start w-full h-full">
           <BrowserBar />
           <img

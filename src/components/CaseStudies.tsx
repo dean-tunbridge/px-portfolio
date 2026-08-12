@@ -9,6 +9,12 @@ export default function CaseStudies() {
                  bg-size-[5%_5%]
                  bg-surface-default-subtle
                 border-border-primary
-                border"></div>
+                border">
+      <div className="flex flex-row justify-center items-center p-0 gap-2 w-68.75 h-15.5 flex-none order-0 grow-0">
+        <h1 className="font-black text-2xl leading-[1.6] text-center text-content-brand-primary flex-none order-0 grow-0">
+          Case Studies
+        </h1>
+      </div>
+    </div>
   )
 }

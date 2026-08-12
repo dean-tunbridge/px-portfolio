@@ -18,7 +18,7 @@ export default function CaseStudies() {
         pt-46
         pb-12
       ">
-      <div className="bg-surface-default-subtle">
+      <div className="bg-surface-default-subtle px-96px py-48px">
         <div className="flex flex-row justify-center items-center gap-2 ">
           <h2 className="font-black text-2xl leading-[1.6] text-center text-content-brand-primary">
             Case Studies

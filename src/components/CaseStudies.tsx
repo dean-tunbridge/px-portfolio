@@ -1,13 +1,38 @@
 import triangleLogo from '../assets/triangle.svg'
 import CaseStudyCard, { type CaseStudyCardProps } from './CaseStudyCard'
 
-const CASE_STUDY_TEST: CaseStudyCardProps = [
+const CASE_STUDY_TEST: CaseStudyCardProps[] = [
   {
-    colour: '',
-    imageUrl = '',
-    projectTitle = 'Project',
-    company = 'Company',
-    description = 'Cupcake ipsum dolor sit amet. Ice cream I love chupa chups candy gingerbread halvah I love jelly.',
+    colour: 'tan',
+    imageUrl: '',
+    projectTitle: 'Project',
+    company: 'Company',
+    description:
+      'Cupcake ipsum dolor sit amet. Ice cream I love chupa chups candy gingerbread halvah I love jelly.',
+  },
+  {
+    colour: 'butterStrong',
+    imageUrl: '',
+    projectTitle: 'Project',
+    company: 'Company',
+    description:
+      'Cupcake ipsum dolor sit amet. Ice cream I love chupa chups candy gingerbread halvah I love jelly.',
+  },
+  {
+    colour: 'brick',
+    imageUrl: '',
+    projectTitle: 'Project',
+    company: 'Company',
+    description:
+      'Cupcake ipsum dolor sit amet. Ice cream I love chupa chups candy gingerbread halvah I love jelly.',
+  },
+  {
+    colour: 'amethystStrong',
+    imageUrl: '',
+    projectTitle: 'Project',
+    company: 'Company',
+    description:
+      'Cupcake ipsum dolor sit amet. Ice cream I love chupa chups candy gingerbread halvah I love jelly.',
   },
 ]
 
@@ -42,14 +67,19 @@ export default function CaseStudies() {
             className="inline-block"
           />
         </div>
-
-        <CaseStudyCard
-          colour="amethystStrong"
-          imageUrl=""
-          projectTitle="Project"
-          company="Company"
-          description="Cupcake ipsum dolor sit amet. Ice cream I love chupa chups candy gingerbread halvah I love jelly."
-        />
+        <ul>
+          {CASE_STUDY_TEST.map((card) => (
+            <li key={card.projectTitle}>
+              <CaseStudyCard
+                colour={card.colour}
+                imageUrl={card.imageUrl}
+                projectTitle={card.projectTitle}
+                company={card.company}
+                description={card.description}
+              />
+            </li>
+          ))}
+        </ul>
       </div>
     </div>
   )

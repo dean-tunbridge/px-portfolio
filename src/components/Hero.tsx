@@ -4,7 +4,7 @@ import triangleLogo from '../assets/triangle.svg'
 export default function Hero() {
   return (
     <div
-      className="box-border flex flex-col justify-center items-center
+      className="box-border flex flex-col items-center
                  pt-24 px-0 pb-12
                  w-full h-136
                  bg-amethyst-300
@@ -14,30 +14,29 @@ export default function Hero() {
         colour="butterSubtle"
         className="w-full max-w-(--width-max-content)">
         <div className="flex flex-col items-start gap-6">
-          <div className="flex flex-col items-start gap-2">
-            <h1 className=" font-black text-4xl ">
-              <span className="text-content-brand-primary">
-                Hello, I&apos;m Priscilla
-              </span>
-              {/* <span className="text-content-brand-secondary">Priscilla</span> */}
-            </h1>
+          <h1 className=" font-black text-4xl ">
+            <span className="text-content-brand-primary">
+              Hello, I&apos;m Priscilla
+            </span>
+            {/* <span className="text-content-brand-secondary">Priscilla</span> */}
+          </h1>
 
-            <p className="font-black text-4xl">
-              <span className="text-content-brand-secondary">
-                a Product Owner turned{' '}
-              </span>
-              <span className="text-content-brand-secondary text-shadow-sm text-shadow-butter-500">
-                UX Designer
-              </span>
-              <img
-                src={triangleLogo}
-                alt="triangle"
-                width={24}
-                height={16}
-                className="inline-block ml-3 align-middle"
-              />
-            </p>
-          </div>
+          <p className="font-black text-4xl">
+            <span className="text-content-brand-secondary">
+              a Product Owner turned{' '}
+            </span>
+            <span className="text-content-brand-secondary text-shadow-sm text-shadow-butter-500">
+              UX Designer
+            </span>
+            <img
+              src={triangleLogo}
+              alt="triangle"
+              width={24}
+              height={16}
+              className="inline-block ml-3 align-middle"
+            />
+          </p>
+
           <p className=" font-normal text-xl">
             I am a bonson changing careers in a turbulent IT industry filled
             with techbrodudes and CEO dingleberries that are an absolute waste

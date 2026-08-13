@@ -54,7 +54,7 @@ export default function CaseStudies() {
         bg-surface-default-subtle
         border border-border-primary
         px-24
-       py-60
+        py-60
       ">
       <div className="bg-surface-default-subtle px-12 py-24 gap-24">
         <div className="flex flex-row justify-center items-center">

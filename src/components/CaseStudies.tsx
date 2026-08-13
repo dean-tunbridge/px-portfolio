@@ -49,11 +49,10 @@ export default function CaseStudies() {
         bg-size-[5%_5%]
         bg-surface-default-subtle
         border border-border-primary
-        px-0
-        pt-46
-        pb-12
+        px-24
+       py-60
       ">
-      <div className="bg-surface-default-subtle px-96px py-48px">
+      <div className="bg-surface-default-subtle px-96 py-48">
         <div className="flex flex-row justify-center items-center gap-2 ">
           <h2 className="font-black text-2xl leading-[1.6] text-center text-content-brand-primary">
             Case Studies

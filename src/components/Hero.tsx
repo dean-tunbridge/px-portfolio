@@ -5,7 +5,7 @@ export default function Hero() {
   return (
     <div
       className="box-border flex flex-col justify-center items-center
-                 pt-46 px-0 pb-12
+                 pt-24 px-0 pb-12
                  w-full h-136
                  bg-amethyst-300
                 border-b-96 border-brick-500">

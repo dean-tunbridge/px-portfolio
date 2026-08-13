@@ -57,7 +57,7 @@ export default function CaseStudies() {
        py-60
       ">
       <div className="bg-surface-default-subtle px-12 py-24 gap-24">
-        <div className="flex flex-row justify-center items-center gap-2 ">
+        <div className="flex flex-row justify-center items-center">
           <h2 className="font-black text-2xl leading-[1.6] text-center text-content-brand-primary">
             Case Studies
           </h2>

@@ -24,7 +24,7 @@ export default function CaseStudyCard({
   description,
 }: CaseStudyCardProps) {
   return (
-    <div className="flex flex-row flex-wrap items-center content-center p-6 gap-6 w-full max-w-(--width-max-content) hover:bg-sky-700">
+    <div className="flex flex-row flex-wrap items-center content-center p-6 gap-6 w-full max-w-(--width-max-content) hover:bg-surface-brand-butter-base">
       <CardComponent
         size="small"
         colour={colour}

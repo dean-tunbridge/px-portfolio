@@ -3,6 +3,7 @@ import CaseStudyCard, { type CaseStudyCardProps } from './CaseStudyCard'
 
 const CASE_STUDY_TEST: CaseStudyCardProps[] = [
   {
+    size: 'small',
     colour: 'tan',
     imageUrl: 'https://placecats.com/580/338',
     projectTitle: 'Project',
@@ -11,6 +12,7 @@ const CASE_STUDY_TEST: CaseStudyCardProps[] = [
       'Cupcake ipsum dolor sit amet. Ice cream I love chupa chups candy gingerbread halvah I love jelly.',
   },
   {
+    size: 'small',
     colour: 'butterStrong',
     imageUrl: 'https://placecats.com/580/338',
     projectTitle: 'Project',
@@ -19,6 +21,7 @@ const CASE_STUDY_TEST: CaseStudyCardProps[] = [
       'Cupcake ipsum dolor sit amet. Ice cream I love chupa chups candy gingerbread halvah I love jelly.',
   },
   {
+    size: 'small',
     colour: 'brick',
     imageUrl: 'https://placecats.com/580/338',
     projectTitle: 'Project',
@@ -27,6 +30,7 @@ const CASE_STUDY_TEST: CaseStudyCardProps[] = [
       'Cupcake ipsum dolor sit amet. Ice cream I love chupa chups candy gingerbread halvah I love jelly.',
   },
   {
+    size: 'small',
     colour: 'amethystStrong',
     imageUrl: 'https://placecats.com/580/338',
     projectTitle: 'Project',
@@ -70,6 +74,7 @@ export default function CaseStudies() {
           {CASE_STUDY_TEST.map((card) => (
             <li key={card.projectTitle}>
               <CaseStudyCard
+                size={card.size}
                 colour={card.colour}
                 imageUrl={card.imageUrl}
                 projectTitle={card.projectTitle}
